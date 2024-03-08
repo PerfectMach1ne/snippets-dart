@@ -28,6 +28,19 @@ multiline stroing!""";
   print(a is String);
   print(a is dynamic);
   print(a.runtimeType);
+
+  print("bfdjbgfjhbvuyv3w5uyrueds8fiov y5hter87tifo43jre");
+  var e;
+  e = "a";
+  print(e is dynamic);
+  e = 1;
+  print(e is dynamic);
+  var f;
+  f = 1;
+  print(f is dynamic);
+  f = "1";
+  print(f is dynamic);
+
   
   print('-' * 25);
   int b = 1;

@@ -1,6 +1,7 @@
 void main(List<String> args) { // VS Code plugin generated this sweetie. interesting.
   List<void> bread = [];
 
+  print(bread);
   print(bread.toString());
 
   // Generics
@@ -13,6 +14,7 @@ void main(List<String> args) { // VS Code plugin generated this sweetie. interes
   print("Avenger names: $_avengerNames");
 
   var aveng = <String>["Iron", "Man", "2"];
+  aveng.forEach((el) {print(el);});
   var avengQuotes = <String, String>{
     "Iron": "I",
     "Man": "am",
@@ -20,4 +22,5 @@ void main(List<String> args) { // VS Code plugin generated this sweetie. interes
   };
 
   var enmptyStringArray/*:3*/ = <String>[];
+  print(enmptyStringArray);
 }
