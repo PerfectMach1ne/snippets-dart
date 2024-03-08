@@ -44,5 +44,9 @@ void main() {
   var voyager2 = Spacecraft('Voyager II', DateTime(1976, 11, 15));
   var voyager3 = Spacecraft('Voyager III', DateTime(1987, 2, 10));
   print(report(voyager1, [voyager2.name, voyager3.name])); // ok i admit defeat to not knowing how to use this
+  report(voyager1, [voyager2.name, voyager3.name]);
+  print(report(voyager1, ['Voyager I']));
   // one day I'll learn it, maybe.
+  report(voyager1, [voyager2.name, voyager3.name]).forEach(print);
+  // ooh, now it works! I am figuring out how these Streams work!
 }
